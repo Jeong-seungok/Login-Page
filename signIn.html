@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/signIn.css"/>
+    <script src="https://kit.fontawesome.com/2f9ac1e29b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container clearfix">
+                <a class="logo">NEX</a>
+                <div class="hamburger-menu right">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-list">
+            <ul>
+                <li><a class="nav-item" href="./index.html">NEXMEDIA</a></li>
+                <li><a class="nav-item" href="./signIn.html">Sign-In</a></li>
+                <li><a class="nav-item contact" href="#none">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- FORM -->
+    <div class="contact-wrap">
+        <form id="contact-form">
+            <label for="">CONTACT<a class="back-btn" href="#none"><i class="fas fa-long-arrow-alt-left"></i></a></label>
+            <div class="radio-group">
+                <input class="radio" type="radio" name="group" /><span>Web & Mobile Site</span>
+                <input class="radio" type="radio" name="group" /><span>eCRM 솔루션 – 분양 Insight</span>
+                <input class="radio" type="radio" name="group" /><span>분양365 - 분양정보 큐레이션 앱</span>
+            </div>
+            <p>&blacktriangleright;회사명</p>
+            <input class="text" type="text" placeholder="회사명" />
+            <p>&blacktriangleright;담당자 성명</p>
+            <input class="text" type="text" placeholder="담당자 성명" />
+            <p>&blacktriangleright;직급</p>
+            <input class="text" type="text" placeholder="직급" />
+            <p>&blacktriangleright;전화번호</p>
+            <input class="text" type="text" placeholder="전화번호" />
+            <p>&blacktriangleright;이메일</p>
+            <input class="text" type="text" placeholder="이메일" />
+            <p>&blacktriangleright;문의내용</p>
+            <textarea name="consult" id="consult" cols="30" rows="5"></textarea>
+            <button type="submit">상담문의</button>
+        </form>
+    </div>
+
+    <section class="signin-form">
+        <div class="container">
+            <h1>Make your own account<span>for Nex-Media</span></h1>
+            <div class="login-form">
+                <div class="last-wrap">
+                    <div class="list-wrap">
+                        <i class="fas fa-check-circle"></i>
+                        <p class="Username p-list">Username</p>
+                    </div>
+                    <input class="username input-list" type="text" placeholder="Username">
+                </div>
+                <div class="last-wrap">
+                    <div class="list-wrap">
+                        <i class="fas fa-check-circle"></i>
+                        <p class="ID p-list">ID</p>
+                    </div>
+                    <input class="id input-list" type="text" placeholder="ID">
+                </div>
+                <div class="last-wrap">
+                    <div class="list-wrap">
+                        <i class="fas fa-check-circle"></i>
+                        <p class="Password p-list">Password</p>
+                    </div>
+                    <input class="password input-list" type="password" placeholder="Password">
+                </div>
+                <div class="last-wrap">
+                    <div class="list-wrap">
+                        <i class="fas fa-check-circle"></i>
+                        <p class="Password-Check p-list">Password-Check</p>
+                    </div>
+                    <input class="check input-list" type="password" placeholder="Password Check">
+                </div>
+                <div class="last-wrap">
+                    <div class="list-wrap">
+                        <i class="fas fa-check-circle"></i>
+                        <p class="Email p-list">E-mail</p>
+                    </div>
+                    <input class="email input-list" type="email" placeholder="E-mail">
+                </div>
+                <div class="button-wrap">
+                    <button class="signin" value="Sign-in">Sign-in</button>
+                    <hr />
+                    <button class="signup" value="Sign-up">Sign-up</button>
+                </div>
+                <div class="aTag-wrap">
+                    <a href="#">Forgotten your password?</a>
+                </div>
+                <img src="./img/logo.png" alt="logo">
+            </div>
+        </div>
+    </section>
+    <script src="./signIn.js"></script>
+</body>
+</html>
